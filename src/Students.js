@@ -7,8 +7,8 @@ export class Students extends Component {
         <h3>Students</h3>
         <div className="list">
           {this.props.students.map(x => {
-            // x.name = x.name + " is awesome!";
-            return <div>{x.name} + is awesome</div>;
+            x.name = x.name + " is awesome!";
+            return <div key={x.name}>{x.name}</div>;
           })}
         </div>
       </div>
