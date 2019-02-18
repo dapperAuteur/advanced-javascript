@@ -11,6 +11,7 @@ export class Header extends Component {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/references">References</NavLink>
           <NavLink to="/async">Async</NavLink>
+          <NavLink to="/closures">Closures</NavLink>
         </nav>
       </header>
     )
