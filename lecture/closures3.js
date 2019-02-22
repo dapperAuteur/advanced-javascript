@@ -1,7 +1,7 @@
 let globalCounter = 0
 
 module.exports = startingValue => {
-  let localCounter = 0
+  let localCounter = startingValue
   return {
     incrementLocalCounter() {
       localCounter++
