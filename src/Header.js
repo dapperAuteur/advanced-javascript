@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import './Header.scss'
-import { NavLink } from 'react-router-dom'
+import React, { Component } from "react";
+import "./Header.scss";
+import { NavLink } from "react-router-dom";
 
 export class Header extends Component {
   render() {
@@ -12,10 +12,11 @@ export class Header extends Component {
           <NavLink to="/references">References</NavLink>
           <NavLink to="/async">Async</NavLink>
           <NavLink to="/closures">Closures</NavLink>
+          <NavLink to="/context">Context</NavLink>
         </nav>
       </header>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
